@@ -1,0 +1,171 @@
+body{
+	margin:0;
+}
+
+.top-banner{
+	background-image:url("top-banner.png");
+	background-repeat:no-repeat;
+}
+.seven{
+	background-image:url("dream-bg.png");
+	background-repeat:no-repeat;
+	height:500px;
+	width:700px;
+     margin-top:100px;
+
+
+}
+h1{
+	margin:40px;
+}
+section{
+	display:flex;
+}
+
+
+h4{
+	text-align:justify;
+}
+.four:hover{
+	margin-top:15px;
+}  
+.four{
+	transition:.7s;
+}
+
+.six{
+	margin:100px;
+	text-align:justify;
+}
+a{
+	text-decoration:none;
+	background-image:linear-gradient(pink,#FF81D0);
+	margin:10px;
+	padding:5px 5px 5px 5px;
+	background-color:#FF81D0;
+	border-radius:5px 5px 5px 5px;
+	box-shadow:5px 5px 5px 5px pink;
+	height:50px;
+	width:80px;
+}
+.six a{
+	text-decoration:none;
+	background-image:linear-gradient(pink,#FF81D0);
+	margin:10px;
+	padding:10px 15px 15px 15px;
+	background-color:#FF81D0;
+}
+.box-1 p{
+	text-align:justify;
+}
+.box-1{
+	height:245px;
+	width:350px;
+	background-color:white;
+	margin:10px;
+	padding:5px;
+	border-left:7px solid red;
+	border-radius:15px 15px 15px 15px;
+	box-shadow:3px 3px 3px 4px gray;
+	margin-left:0px;
+	left:0px;
+	top:0px;
+	z-index:-1;
+	
+}
+
+.box-2{
+	height:245px;
+	width:350px;
+	background-color:white;
+	margin:10px;
+	padding:5px;
+	border-left:7px solid blue;
+	border-radius:15px 15px 15px 15px;
+	box-shadow:3px 3px 3px 4px gray;
+	text-align:justify;
+	margin-right:5px;
+}
+
+}
+.b1{
+	display:flex;
+	margin-top:5px;
+	padding:2px;
+	margin-right:10px
+	background-repeat:no-repeat;
+	gap:7cm;
+	
+	
+}
+
+.exp{
+	margin-top:2px;
+}
+
+footer{
+	text-align:center;
+	font-weight:500;
+}
+.footer{
+	text-align:center;
+	font-weight:700;
+}
+nav{
+	background-image:linear-gradient(#FACFCE,#D2E8E3);
+	height:100px;
+	width:100%;
+}
+.logo h1{
+	font-size:30px;
+	font-weight:700;
+}
+ul {
+	list-style:none;
+	float:right;
+	margin-top:-90px;
+	
+}
+li{
+	
+	display:inline-block;
+	margin-right:50px;
+}
+nav a{
+	text-decoration:none;
+	color:#F2668B;
+	font-size:20px;
+	font-weight:bold;
+	
+}
+.logo{
+	color:#F2668B;
+	font-size:60px;
+	text-transform:uppercase;
+	padding:8px;
+}
+@media(max-width:600px){
+	.top-banner{
+		display:block;
+	}
+}
+@media(max-width:600px){
+	nav{
+		display:block;
+	}
+}
+@media(max-width:600px){
+	.one{
+		display:block;
+	}
+}
+@media(max-width:600px){
+	.dream-bg{
+		display:block;
+	}
+}
+@media(max-width:600px){
+	.b1{
+		display:block;
+	}
+}
